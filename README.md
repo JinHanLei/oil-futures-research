@@ -6,7 +6,7 @@
 
 ## Download news data
 
-    $ wget https://github.com/MagicianQi/oil-futures-RLSTM/releases/download/v1/china5e_news.csv
+    $ wget https://github.com/JinHanLei/oil-futures-research/releases/download/v1/china5e_news.csv
     $ mv china5e_news.csv ./data/
 
 ## Run
