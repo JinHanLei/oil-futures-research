@@ -1,33 +1,5 @@
 # -*- coding: utf-8 -*-
 
-"""
-1.中国基本面:
-    Hyper parameter:
-        num_epochs: 100
-        lr_init: 0.001
-        random_seed: 273
-    Result:
-        val mse: 0.052746744677706146
-        test mse: 0.0596894634087169
-
-2.美国基本面:
-    Hyper parameter:
-        num_epochs: 100
-        lr_init: 0.001
-        random_seed: 273
-    Result:
-        val mse: 0.015680313917221994
-        test mse: 0.017142928605936036
-
-3.中国基本面 + 美国涨跌:
-    Hyper parameter:
-        num_epochs: 100
-        lr_init: 0.001
-        random_seed: 273
-    Result:
-        val mse: 0.01544560899900828
-        test mse: 0.016018793852708768
-"""
 
 import os
 import torch

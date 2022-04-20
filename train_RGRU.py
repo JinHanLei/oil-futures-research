@@ -1,34 +1,5 @@
 # -*- coding: utf-8 -*-
 
-"""
-1.中国基本面:
-    Hyper parameter:
-        num_epochs: 132
-        lr_init: 0.001
-        random_seed: 273
-    Result:
-        val accuracy_score: 0.6140350877192983
-        val auc: 0.6234491315136477
-
-2.美国基本面:
-    Hyper parameter:
-        num_epochs: 150
-        lr_init: 0.01
-        random_seed: 274
-    Result:
-        val accuracy_score: 0.5281385281385281
-        val auc: 0.5332608369581521
-
-3.中国基本面 + 美国涨跌:
-    Hyper parameter:
-        num_epochs: 150
-        lr_init: 0.001
-        random_seed: 273
-    Result:
-        val accuracy_score: 0.5964912280701754
-        val auc: 0.6073200992555832
-"""
-
 import os
 import torch
 import random

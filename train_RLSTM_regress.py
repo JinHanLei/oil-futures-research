@@ -1,46 +1,5 @@
 # -*- coding: utf-8 -*-
 
-"""
-1.中国基本面:
-    Hyper parameter:
-        num_epochs: 100
-        lr_init: 0.001
-        random_seed: 273
-    Result:
-        val mse: 0.0006716219789348816
-        test mse: 0.0006014344664942903
-        val rmse: 0.019051883873460133
-        test rmse: 0.018183241058074708
-        val mape: nan
-        test mape: nan
-        val smape: 0.05182664078240634
-        test smape: 0.0565408211109975
-
-2.美国基本面:
-    Hyper parameter:
-        num_epochs: 100
-        lr_init: 0.001
-        random_seed: 273
-    Result:
-        val mse: 0.0001891613474229831
-        test mse: 0.0001971232997772325
-        val rmse: nan
-        test rmse: nan
-        val mape: nan
-        test mape: nan
-        val smape: 0.01680828215519602
-        test smape: 0.018086353520237835
-
-3.中国基本面 + 美国涨跌:
-    Hyper parameter:
-        num_epochs: 1000
-        lr_init: 0.01
-        random_seed: 273
-    Result:
-        val mse: 107.58048730763493
-        test mse: 125.04268950400208
-"""
-
 import os
 import torch
 import random
